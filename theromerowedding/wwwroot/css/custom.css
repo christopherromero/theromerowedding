@@ -1,0 +1,84 @@
+﻿body{
+    background-image: url(../images/backgrounds/white-marble-1-2018.jpg);
+    background-repeat:repeat-y ;
+    background-size: cover;
+    background-position: center;
+    height: -webkit-fill-available;
+    padding:0px;
+    margin:0px;
+
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.hero-images{
+    border: groove;
+    padding:10px;
+}
+
+.registry-box {
+    text-align: center;
+}
+.blue-print-registry {
+    border: groove;
+    width: fit-content;
+    text-align:center;
+    padding:10px;
+}
+.directions-box{
+    text-align: center;
+}
+.directions-map{
+    border:groove;
+    width: fit-content;
+    text-align:center;
+
+}
+.accommodations-textbox{
+    text-align:left;
+}
+
+.bridal-party-box{
+    text-align: center;
+}
+.bridal-party-borderbox {
+    border: groove;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+.dresscode{
+    text-align:center;
+}
+@font-face {
+    font-family: 'moonFont';
+    src: url(../fonts/Moon2.0-Regular.ttf) format('truetype');
+    src: url(../fonts/Moon2.0-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'moonFontBold';
+    src: url(../fonts/Moon2.0-Bold.ttf) format('truetype');
+    src: url(../fonts/Moon2.0-Bold.woff) format('woff');
+}
+
+a{
+    font-family: moonFont;
+    color:#7c9c7c !important;
+}
+div{
+    font-family:moonFont;
+}
+a:hover, a:focus {
+    color: #455C45 !important;
+}
+
+.ourstory-paragraph{
+    font-size:17px;
+}
+
